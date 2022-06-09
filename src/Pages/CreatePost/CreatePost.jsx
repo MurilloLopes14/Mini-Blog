@@ -73,11 +73,11 @@ export const CreatePost = () => {
           />
         </label>
         <label>
-          <span>Url da imagem:</span>
+          <span>Link da imagem:</span>
           <input
             type="text"
             name="image"
-            placeholder="insira uma imagem que representa o seu post"
+            placeholder="insira um link de uma imagem que representa o seu post"
             required
             onChange={(e) => setImage(e.target.value)}
             value={image}
@@ -94,11 +94,11 @@ export const CreatePost = () => {
           ></textarea>
         </label>
         <label>
-          <span>Tags:</span>
+          <span>HashTags:</span>
           <input
             type="text"
             name="tags"
-            placeholder="insira as tags sepraradas por vírgula (,)"
+            placeholder="insira as tags sepraradas por vírgula ( , ). Ex: amor, vida, saudade"
             required
             onChange={(e) => setTags(e.target.value)}
             value={tags}

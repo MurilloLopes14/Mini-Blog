@@ -27,7 +27,7 @@ export const Dashboard = () => {
 
   return (
     <DashboardStyle>
-      <h2>Dashboard</h2>
+      <h2>Biblioteca de Posts</h2>
       <p>Gerencie os seus posts</p>
       {posts && posts.length === 0 ? (
         <NoPosts>

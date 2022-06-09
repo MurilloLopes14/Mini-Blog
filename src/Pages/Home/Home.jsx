@@ -27,7 +27,7 @@ export const Home = () => {
       <Search_form onSubmit={handleSubmit}>
         <input
           type="text"
-          placeholder="Ou busque por tags"
+          placeholder="Ou busque por Hashtags"
           onChange={(e) => setQuery(e.target.value)}
         />
         <button className="btn btn-dark">Pesquisar</button>

@@ -69,7 +69,7 @@ export const NavBar = () => {
                 to="/dashboard"
                 className={({ isActive }) => (isActive ? styles.active : "")}
               >
-                DashBoard
+                Biblioteca
               </NavLink>
             </Links_list_li>
           </>

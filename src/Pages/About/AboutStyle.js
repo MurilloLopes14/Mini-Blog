@@ -8,6 +8,19 @@ export const AboutContainer = styled.div`
   align-items: center;
 `;
 
+export const ProjectDescription = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 70%;
+
+  & span {
+    color: #111;
+    font-weight: 700;
+  }
+`;
+
 export const P = styled.p`
   color: #aaa;
   margin-bottom: 2em;
